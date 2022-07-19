@@ -1,5 +1,7 @@
+-- Apagando o banco de dados criado
 drop database dbAcademia;
 
+-- Criando banco de dados
 create database dbAcademia;
 
 use dbAcademia;

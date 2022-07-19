@@ -1,10 +1,11 @@
 -- Apagando o banco de dados criado
 drop database dbAcademia;
 
+-- Criando banco de dados
 create database dbAcademia;
 
 use dbAcademia;
-
+-- Criando as tabelas
 create table tbAtividade(
 id int,
 atividade varchar(45)
