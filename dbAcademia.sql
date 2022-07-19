@@ -4,7 +4,9 @@ drop database dbAcademia;
 -- Criando banco de dados
 create database dbAcademia;
 
+-- Acessando o banco de dados
 use dbAcademia;
+
 -- Criando as tabelas
 create table tbAtividade(
 id int,
@@ -55,6 +57,7 @@ id_instrutor int,
 id_monitor int
 );
 
+-- visualizando banco de dados
 show databases;
 
 show tables;
