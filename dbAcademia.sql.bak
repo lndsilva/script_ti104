@@ -1,4 +1,3 @@
--- Apagando o banco de dados criado
 drop database dbAcademia;
 
 create database dbAcademia;
